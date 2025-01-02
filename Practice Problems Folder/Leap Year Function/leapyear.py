@@ -1,3 +1,5 @@
+import random
+
 def is_leap(year):
     leap = False
     
@@ -5,4 +7,5 @@ def is_leap(year):
     
     return leap
 
-year = int(input())
+year = random.randint(1900, 25000)
+random.randint(1900, 25000)
